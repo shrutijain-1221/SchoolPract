@@ -146,7 +146,7 @@ const AdmissionForm = () => {
                     </div>
                     <div>
                         <label>Age:</label>
-                        <p>{formData.age}</p> {/* Display age as text */}
+                        <p>{formData.age}</p>
                     </div>
                 </div>
                 <div className="form-row">
