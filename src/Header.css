@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .school-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ee5220;
+  }
+  .menu-toggle {
+    color: #ee5220;
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  }
+  .nav ul li {
+    display: inline;
+  }
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+    position: relative;
+  }
+  .nav ul li a:hover,
+  .nav ul li a.active {
+    color: #ee5220;
+  }
+  .nav ul li a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ee5220;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+  }
+  @media (max-width: 600px) {
+    .menu-toggle {
+      display: block;
+    }
+    .nav {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+    .nav.open {
+      display: flex;
+    }
+    .nav ul {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+  }

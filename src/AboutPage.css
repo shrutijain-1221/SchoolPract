@@ -1,0 +1,66 @@
+.about-page {
+    padding: 20px;
+    text-align: center;
+}
+.about-box {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #ee5220, #ffcc66);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.about-right {
+    flex: 2;
+    text-align: left;
+    padding-left: 20px;
+}
+.about-right h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.about-right p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 20px;
+}
+.card {
+    flex: 1;
+    background: linear-gradient(to right, #ffcc66, #ee5220);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.card1 {
+    flex: 1;
+    background: linear-gradient(to left, #ffcc66, #ee5220);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.card h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+.card p {
+    color: #666;
+}
