@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SchoolPract/static/css/main.f8191674.css",
-    "main.js": "/SchoolPract/static/js/main.040cb848.js",
-    "static/js/453.8ab44547.chunk.js": "/SchoolPract/static/js/453.8ab44547.chunk.js",
-    "static/media/schoollogo.jpg": "/SchoolPract/static/media/schoollogo.a7abf0930543bd7bba6e.jpg",
-    "static/media/students.jpg": "/SchoolPract/static/media/students.6ea1257357128345746e.jpg",
-    "static/media/sports.jpg": "/SchoolPract/static/media/sports.e36aa311988b9b814871.jpg",
-    "index.html": "/SchoolPract/index.html",
-    "main.f8191674.css.map": "/SchoolPract/static/css/main.f8191674.css.map",
-    "main.040cb848.js.map": "/SchoolPract/static/js/main.040cb848.js.map",
-    "453.8ab44547.chunk.js.map": "/SchoolPract/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/static/css/main.f8191674.css",
+    "main.js": "/static/js/main.c612167d.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/schoollogo.jpg": "/static/media/schoollogo.a7abf0930543bd7bba6e.jpg",
+    "static/media/students.jpg": "/static/media/students.6ea1257357128345746e.jpg",
+    "static/media/sports.jpg": "/static/media/sports.e36aa311988b9b814871.jpg",
+    "index.html": "/index.html",
+    "main.f8191674.css.map": "/static/css/main.f8191674.css.map",
+    "main.c612167d.js.map": "/static/js/main.c612167d.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8191674.css",
-    "static/js/main.040cb848.js"
+    "static/js/main.c612167d.js"
   ]
 }
