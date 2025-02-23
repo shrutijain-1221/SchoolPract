@@ -1,5 +1,5 @@
 .about-page {
-    padding: 20px;
+   
     text-align: center;
 }
 .about-box {
@@ -64,3 +64,13 @@
 .card p {
     color: #666;
 }
+@media(max-width:600px){
+    .about-box{
+      flex-direction: column;
+    }
+    .about-right{
+      padding-left: 10px;
+      margin-top: 20px;
+      padding-bottom: 20px;
+    }
+  }

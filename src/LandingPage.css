@@ -95,6 +95,11 @@
     .image-section {
       margin-bottom: 20px;
     }
+    .cards-section {
+     flex-direction: column;
+     justify-content: center;
+     justify-items: center;
+    }
   }
   .faq-section {
     margin-top: 20px;
