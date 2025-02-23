@@ -178,7 +178,7 @@ const AdmissionForm = () => {
                         <label>Admission for Class:</label>
                         <select name="class" value={formData.class} onChange={handleChange}>
     <option value="">Select Class</option>
-    {["1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th"].map((cls, i) => (
+    {["1st", "2nd", "3rd", "4th", "5th", "6th","7th", "8th", "9th", "10th"].map((cls, i) => (
         <option key={i} value={cls}>
             {cls}
         </option>
