@@ -7,10 +7,11 @@ const CommonContact = () => {
             <section className="contact-section">
                 <div className="contact-info">
                     <h3>Contact Us</h3>
-                    <p>M School 85, Ghat Road,<br />
-                        Chalisgaon - 424101. Maharashtra. India</p>
+                    <p>742 Evergreen Lane,<br />
+                    Springfield, XY 12345<br/>
+                       </p>
                     <p><strong>Email Address:</strong> admissions@myschool.org</p>
-                    <p><strong>Telephone No:</strong> 022 0000000</p>
+                    <p><strong>Telephone No:</strong>+1-555-123-4567</p>
                 </div>
                 <div className="quick-links">
                     <h3>Quick Links</h3>

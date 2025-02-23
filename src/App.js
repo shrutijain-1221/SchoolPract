@@ -10,7 +10,7 @@ import CommonContact from './CommonContact';
  
 function App() {
   return (
-    <Router>
+    <Router  basename="/SchoolPract">
       <div className="App">
         <Header />
         <Routes>
