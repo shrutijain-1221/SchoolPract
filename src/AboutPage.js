@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutPage.css';
-import studentsImage from './images/students.jpg'; // Ensure the path is correct
+import studentsImage from './images/students.jpg'; 
 const AboutPage = () => {
     return (
         <div className="about-page">
