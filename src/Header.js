@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   const handleCloseMenu = () => {
-    setIsOpen(false); // Close the menu when clicking close (X) icon or a nav link
+    setIsOpen(false); 
   };
 
   return (
